@@ -21,7 +21,7 @@ chrome.runtime.onInstalled.addListener(function() {
   // Create one test item for each context type.
   var contexts = ["page","selection","link","editable","image","video",
                   "audio"];
-  var id = chrome.contextMenus.create({"title": "Click on me to log your selection!",
+  var id = chrome.contextMenus.create({"title": "Click on me to find the perfect meme!",
                                         "contexts": [contexts[1]],"id": "parent"});
 
 });

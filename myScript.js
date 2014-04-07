@@ -1,7 +1,7 @@
 var port = chrome.runtime.connect();
 
 window.addEventListener("onLoad", function(event) {
-    console.log("Unicorens!!");
+    console.log("This is working properly!");
     // we only accempt messages from ourselves?
     if (event.source != window)
         return;
